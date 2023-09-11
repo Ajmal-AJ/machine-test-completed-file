@@ -55,7 +55,7 @@ window.addEventListener('load', () => {
 $(window).scroll(function() {    
   var scroll = $(window).scrollTop();
  
-  if (scroll >= 200 ) {
+  if (scroll > 700 ) {
     $(".top-nav-box").hide()
     $(".top-nav-box").removeClass("d-lg-block")
     
